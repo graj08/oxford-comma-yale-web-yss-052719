@@ -4,7 +4,7 @@ if array.size == 1
   output << array.join
   puts output
 elsif array.size == 2
-  output = "#{array[0]} and #{array[1]}"
+  output << "#{array[0]} and #{array[1]}"
   puts output
 else
   size = array.size
