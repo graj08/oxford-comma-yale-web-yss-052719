@@ -14,3 +14,4 @@ else
   output << "and #{array[-1]}."
   puts output
 end
+end
