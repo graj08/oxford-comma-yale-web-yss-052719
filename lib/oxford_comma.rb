@@ -7,7 +7,7 @@ elsif array.size == 2
 else
   size = array.size
   for i in 1..array.size-1 do
-    output << "#{array[i], }"
+    output << "#{array[i]}, "
   end
   output << "and #{array[-1]}."
   end
