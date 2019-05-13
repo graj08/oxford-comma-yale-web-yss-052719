@@ -11,7 +11,7 @@ else
   for i in 0..array.size-2 do
     output << "#{array[i]}, "
   end
-  output << "and #{array[-1]}."
+  output << "and #{array[-1]}"
   output
 end
 end
